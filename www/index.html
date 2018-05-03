@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PreformanceTask</title>
+    <style>
+        #button1 {
+            width: 374px;
+            height: 74px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 617px;
+            left: 44px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button1 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button1:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+        #button2 {
+            width: 374px;
+            height: 70px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 715px;
+            left: 44px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button2 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button2:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+        #button3 {
+            width: 374px;
+            height: 70px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 715px;
+            left: 44px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button3 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button3:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        #entername {
+            width: 400px;
+            height: 75px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 400px;
+            left: 570px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            display: none;
+        }
+
+        #entername {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button4 {
+            width: 200px;
+            height: 75px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 500px;
+            left: 670px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button4 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button4:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        #button5 {
+            width: 150px;
+            height: 50px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 770px;
+            left: 1330px;
+            font-size: 35px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button5 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button5:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        #button6 {
+            width: 374px;
+            height: 117px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 259px;
+            left: 521px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button6 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button6:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        #button7 {
+            width: 374px;
+            height: 119px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 390px;
+            left: 522px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button7 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button7:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        #button8 {
+            width: 374px;
+            height: 74px;
+            background-color: #ffdef0;
+            position: fixed;
+            top: 522px;
+            left: 522px;
+            font-size: 50px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            display: none;
+        }
+
+
+        #button8 {
+            background-color: white;
+            color: #fc97ff;
+            border: 2px solid #fc97ff;
+        }
+
+        #button8:hover {
+            background-color: #fc97ff;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="1517" height="853"></canvas>
+    <audio src="Wrappers.mp3" id="funny-joke"></audio>
+    <audio src="Mii.mp3" id="fun-auds"></audio>
+    <script src="bundle.js"></script>
+    <button id="button1">Start</button>
+    <button id="button2">Options</button>
+    <button id="button3">Back</button>
+    <button id="button4">Enter</button>
+    <button id="button5">Next</button>
+    <button id="button6">The White House</button>
+    <button id="button7">The School Kitchen</button>
+    <button id="button8">Home</button>
+    <input id="entername" placeholder="Enter Name">
+</body>
+</html>
